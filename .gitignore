@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Data
+data/
+
+# Checkpoints & model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# RobustBench model cache
+~/.cache/robustbench/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs & outputs
+*.log
+runs/
+wandb/
+lightning_logs/
+
+# Claude internal
+.claude/
